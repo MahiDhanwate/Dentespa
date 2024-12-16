@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* box1  */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+
+.logo{
+    background-image: url(logo.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+
+/* hero section */
+
+.hero-section{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+.hero-msg{
+    color: black;
+    font-size: 0.85rem;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    /* margin-bottom: 200px;
+    margin-right: 50; */
+
+}
+
+
+
+.hero-msg a{
+    color: #0f1111;
+    font-size: xx-large;
+    font-weight: 700;
+
+}
+
+a:hover{
+    font-style:normal;
+    background-color: rgb(16, 205, 205);
+}
+ 
+
+.displayno{
+    color: black;
+    font-size: 0.85rem;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content:end;
+    /* margin-bottom: 100px;
+    margin-right: 100; */
+
+}
+
+
+
+.displayno a{
+    color: #0f1111;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
